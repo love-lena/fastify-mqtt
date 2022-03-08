@@ -1,0 +1,35 @@
+{
+  "name": "fastify-mqtt",
+  "version": "1.0.0",
+  "description": "Fastify MQTT plugin",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "npm run unit -- --cov --coverage-report=html",
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/love-lena/fastify-mqtt.git"
+  },
+  "keywords": [
+    "fastify",
+    "mqtt"
+  ],
+  "author": "Lena Hickson Long <me@lena.dev> (http://lena.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/love-lena/fastify-mqtt/issues"
+  },
+  "homepage": "https://github.com/love-lena/fastify-mqtt#readme",
+  "devDependencies": {
+    "fastify": "^3.0.0",
+    "standard": "^16.0.0",
+    "tap": "^15.0.0"
+  },
+  "dependencies": {
+    "fastify-plugin": "^3.0.0",
+    "mqtt": "^4.3.6"
+  }
+}
