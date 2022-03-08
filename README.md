@@ -1,5 +1,8 @@
 # fastify-mqtt
 
+[![NPM version](https://img.shields.io/npm/v/fastify-mqtt.svg?style=flat)](https://www.npmjs.com/package/fastify-mqtt)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://standardjs.com/)
+
 Fastify MQTT plugin; shares the same MQTT connection in every part of your server.
 
 Wrapper around [mqtt](https://www.npmjs.com/package/mqtt)
